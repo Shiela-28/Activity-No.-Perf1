@@ -1,0 +1,130 @@
+var a = 20;
+a = 30;
+console.log(a);
+
+let b = 40;
+b = 60;
+
+const c = 50 ;
+
+const my object = {name: "allexis" } 
+my object.name = "allexia"
+console.log(myobject)
+
+
+1. Differentiation of let, const, and var in JavaScript
+Discuss the differences between let, const, and var in JavaScript.
+
+With the use of JavaScript, there are three types of variable declarations that can be 
+used: Let, Const, and Var. Each of these has its own difference and use in developing 
+variables within a program. LET is a type of variable declaration that can change its 
+value within a code block. That is, it can be changed or updated within a function or 
+block of the code where it is declared to use the LET, we can change the value of a 
+variable depending on the conditions or circumstances within the program. Const is a 
+type of variable declaration that can no longer change its value after it is declared.
+Var is a type of variable declaration that can change its value throughout the program.
+This is the former way of declaring a variable in JavaScript before the LET and Const.
+However, there are some issues of using varing vars such as hoisting and scope issues 
+so it is best to use LET and CON to just develop variables in modern JavaScript.
+
+Your explanation must contain the most important keywords that could explain 
+the three (let, var, const). 
+
+Keywords LET, VAR, and CONST are important concepts in declaring variables in 
+javascript. These keywords are in contrast to use, especially when it comes to scope, 
+reassignment, and best practices. LET is used to declare a variable with a block scope. 
+That is, this variable can only be accessed inside the block where it is declared. This is 
+a good practice in programming to prevent conflicts between variables in different parts 
+of the code. The var is used to declare a variable with a scope function. That is, this 
+variable can be accessed throughout the function in which it is declared. However, 
+using a var can cause conflicts and bugs in the code due to its global scope. Const is 
+used to declare a constant variable that cannot be reassigned. This is a good practice in 
+programming to avoid changing the value of a variable accidentally. However, it is also 
+important to note that Const does not mean that the properties of an object or array can 
+no longer change.
+
+Hint: Consider scoping (block scope), reassigning (can be and cannot), and best 
+practices. 
+
+In developing programs, proper use of concepts such as scoping, reassigning, and best 
+practices is important. These concepts are important to maintain the order and 
+efficiency of a program. The scoping or block scope refers to the availability of 
+accessing the access of variables within a code block. It is important to avoid conflicts 
+between the variables and to maintain code order. By proper use of scoping, errors can 
+avoid and make the code base easier. Reassigning, in turn, is changing the value of a 
+variable. Reassigning may be good or bad depending on the situation. This can cause 
+confusion and code errors if it is not used properly. So it is important to be careful when 
+reassuring the variables and make sure it is correct and accurate. In developing 
+programs, it is also important to follow the best practices. These are guidelines and 
+standards to follow to maintain the quality and efficiency of the code. Some of the best 
+practices are the use of descriptive variable names, having a good documentation, and 
+the use of the version control system. 
+
+
+2. Concept of Falsy Values in JavaScript 
+Discuss the concept of falsy values in JavaScript. 
+
+An important concept in JavaScript is the Falsy values, which refers to values that are 
+false or invalid in the program logic. In JavaScript, there are seven types of Falsy 
+Values: False, 0, "", null, undefined, nan, and the value nan (not a number). When a 
+value is considered Falsy, this is not true of the program logic and may cause 
+unexpected results. Understanding Falsy values is important in developing effective 
+javascript applications. By defining and handling Falsy values, we can avoid bugs and 
+errors in our code. One of the uses of Falsy Values is to check conditional statements. 
+By determining whether a value is Falsy, we can properly handle invalid inputs from 
+users 
+
+Provide three (3) examples of falsy values, explaining why they are considered 
+falsy in JavaScript. 
+
+In JavaScript, there are so -called "Falsy Values" that refers to the values that are false 
+or invalid in the logic of the program. Falsy values are values consistent with JavaScript 
+behavior conditions and may cause unexpected results in codes. The three examples of 
+Falsy Values in JavaScript are as follows:
+
+1. 'FALSE' - The value 'FALSE' is a Boolean Value that indicates improper response to 
+a condition. When this amount is used in one condition, it is immediately considered 
+invalid and the code will not continue to fulfill the following steps. 
+2. 0 - The number '0' is also a FALY value in JavaScript. This is considered invalid due 
+to the logic of the program, the value 0 indicates not having any value or meaning. So 
+when this amount is used in one condition, it is immediately considered invalid and the 
+code will not continue to fulfill the following steps.
+3. 'null' - the value 'null' is a special value in JavaScript that indicates the absence of 
+any value or meaning. It is also a falsy value due to the logic of the program, 'null' is not 
+valid and should not be used in conditions to prevent unexpected results. 
+
+Hint: Discuss how falsy values behave in conditional statements. 
+
+With the use of conditional statements in programming, it is important that we 
+understand how Falsy values act. Falsy values are values that are false or invalid in the 
+program logic. In many programming languages, there are predefined falsy values such 
+as False, 0, "", null, and undefined. When using Falsy values in conditional statements, 
+they are considered false. That is, even if a variable has a Falsy value, it will not be true 
+of the program's logic. For example, if a variable has 0 and it is integrated into a 
+conditional statement, it will not be true and it will not operate any code within the 
+conditional statement block. By understanding the behavior of Falsy Values in 
+conditional statements, we can facilitate the development of logical conditions in our 
+programs. It is also important to note that not all values that are false is considered 
+Falsy values. So it is important that we review these values and make sure they are 
+used correctly in our codes. In this way, we can facilitate the development of logical 
+conditions in our programs. It is also important to note that not all values that are false is 
+considered Falsy values. So it is important that we review these values and make sure 
+they are used correctly in our codes. In this way, we can facilitate the development of 
+logical conditions in our programs and prevent possible errors in using Falsy Values. 
+Understanding their behavior will be important so that we can easily implement codes 
+with conditions within programming languages. 
+https://www.geeksforgeeks.org/difference-between-var-let-and-const-keywords-in-javascript/
+https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
+https://www.naukri.com/code360/library/difference-between-var-let-and-const-in-js
+https://stackoverflow.com/questions/53675550/what-is-the-term-to-describe-the-keywords-letconst-and-var
+https://community.appsmith.com/content/guide/variables-javascript-comprehensive-guide-varlet-and-const 
+https://www.freecodecamp.org/news/understanding-let-const-and-var-keywords/
+https://stackoverflow.com/questions/17311693/why-was-block-scope-not-originallyimplemented-in-javascript
+https://www.geeksforgeeks.org/javascript-es2015-block-scoping/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block
+https://www.freecodecamp.org/news/what-are-falsey-values-in-javascript/
+https://www.geeksforgeeks.org/explain-the-concept-of-truthy-falsy-values-in-javascript/
+https://www.educative.io/answers/what-are-falsy-values-and-truthy-in-javascript
+https://www.freecodecamp.org/news/what-are-falsey-values-injavascript/#:~:text=0%20%3A%20The%20number%20zero.,keyword%2C%20representing%20
+an%20uninitialized%20value.
+https://stackoverflow.com/questions/19839952/all-falsey-values-in-javascript
